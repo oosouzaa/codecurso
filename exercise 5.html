@@ -1,0 +1,81 @@
+<html>
+	<head>
+	<title>exercise 5</title>
+		<style>
+		div {
+			background-color: purple;
+			width: 300px;
+			border: 15px solid orange;
+			padding: 50px;
+			margin: 20px;
+			color: white;
+		}	
+		legend {
+			color: white;
+		}
+		body {
+			background-color: purple
+		}
+		form {
+			color: white;
+		}
+		select {
+			color: orange;
+			background-color: black;
+		}
+		label.obs {
+			color: white;
+		}
+		textarea {
+			color: orange;
+			border : 50px
+			border-style: solid;
+			border-color: black;
+		}
+		button {
+			color:orange;
+			background-color: black;
+		}
+		p.italic {
+			font-style: italic;
+			color: white;
+		}
+		P {
+			color: white;
+		}	
+		</style>		
+	</head>	
+		<body>
+			<form action="cadastraprofessor.php">
+				<fieldset>
+					<legend>Cadastro de alunos</legend><br>
+					<label for="maluno">Matrícula do aluno:</label><br>
+					<input type="text" name="maluno" id="maluno"><br>
+					<label for="naluno">Nome do aluno:</label><Br>		
+					<input type="text" name="naluno" id="naluno"><br>
+					<label for="caluno">Curso do aluno:</label><br><br>
+					<input type="checkbox" id="caluno" name="naluno" value="D.S">D.S
+					<input type="checkbox" id="caluno" name="naluno" value="EF">Enfermagem<br><br>
+					<label for="ensino">Finalizou Ensino Médio:</label><Br><Br>
+					<input type="radio" id="ensino" name="ensino" value="Sim">Sim
+					<input type="radio" id="ensino" name="ensino" value="nao">Não<br><br>
+					<label for="time">Turno:</label><br>
+						<select name="time" id="time">
+							<option value="Manhã">Manhã</option>
+							<option value="Tarde">Tarde</option>
+							<option value="Noite">Noite</option>
+						</select><br><br><br><br><Br><br>	
+						<button type="button" onclick="alert('Cadastro completo')">Cadastrar
+						</button>
+				</fieldset>
+			</form>
+			<label for="observações" class="obs">Obeservações do aluno:</label><Br><br>
+			<textarea id="observações" name="observações" rows="5" cols="50">
+			</textarea><br><br>
+			<button type="button" onclick="alert('Observação enviada')">Enviar
+			</button>
+			<p class="italic"> HG DELAS UI UI!</p>
+			<p>RONALDINHO DELAS UI UI!</P>
+			<div>O ronaldinho é brabo!</div>
+		</body>		
+</html>	

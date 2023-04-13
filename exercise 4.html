@@ -1,0 +1,36 @@
+<html>
+	<head>
+	<title>exercise 4</title>
+		<link rel="stylesheet" href="meuestilo.css">
+	</head>	
+		<body>
+			<form action="cadastraprofessor.php">
+				<fieldset>
+					<legend>Cadastro de alunos</legend><br>
+					<label for="maluno">Matrícula do aluno:</label><br>
+					<input type="text" name="maluno" id="maluno"><br>
+					<label for="naluno">Nome do aluno:</label><Br>		
+					<input type="text" name="naluno" id="naluno"><br>
+					<label for="caluno">Curso do aluno:</label><br><br>
+					<input type="checkbox" id="caluno" name="naluno" value="D.S">D.S
+					<input type="checkbox" id="caluno" name="naluno" value="EF">Enfermagem<br><br>
+					<label for="ensino">Finalizou Ensino Médio:</label><Br><Br>
+					<input type="radio" id="ensino" name="ensino" value="Sim">Sim
+					<input type="radio" id="ensino" name="ensino" value="nao">Não<br><br>
+					<label for="time">Turno:</label><br>
+						<select name="time" id="time">
+							<option value="Manhã">Manhã</option>
+							<option value="Tarde">Tarde</option>
+							<option value="Noite">Noite</option>
+						</select><br><br><br><br><Br><br>	
+						<button type="button" onclick="alert('Cadastro completo')">Cadastrar
+						</button>
+				</fieldset>
+			</form>	
+			<label for="observações">Obeservações do aluno:</label><Br><br>
+			<textarea id="observações" name="observações" rows="5" cols="50">
+			</textarea><br><br>
+			<button type="button" onclick="alert('Observação enviada')">Enviar
+			</button>
+		</body>		
+</html>	

@@ -1,0 +1,88 @@
+.container {
+    width: 980px;
+    margin:0px auto 0px auto;
+    background-color:#ffffff
+}
+body {
+    background-color:#eee;
+    font-family: "lucida console", verdana, arial;
+    margin: 0;
+    text-align: center;
+}
+div { text-align:left }
+.conteudo {
+    margin: 20px 0px 0px 0px;
+    padding: 25px 2.5%;
+}
+.conteudo p {  margin:15px 0px 15px 0px; }
+.ultimanoticia {
+    float: right;
+    width: 400px;
+    background-color: #dedede;
+    padding: 15px;
+    margin:0px 0px 20px 15px;
+}
+.ultimanoticia > h1 {
+    font-size: 18px;
+    font-weight: bolder;
+    color: #efefef;
+    background-color: #001e00;
+    padding: 10px 0px 5px 15px;
+    margin-top: 0px;
+}
+.noticia { cursor: pointer; }
+.noticia h1 { font-size:13px; }
+.ultimanoticia p { font-size:11px; }
+#topo {width:100%; height:212px;
+    background-color: #001e00;
+}
+#container_banner_logo { padding: 6px 0px 6px 0px; }
+#banner { width:  653px; height: 200px;
+    float:left;
+    background:url(imagensdoexe.jpg) no-repeat;
+    background-size:100% 100%;
+    margin:0px 0px 0px 40px;
+}
+#logo { float: right; }
+#img01 { width: 200px; height: 180px; }
+#destaque {
+    widht: 980px !important;
+    weight: 310px !important;
+    position:relative;
+}
+#destaque .fotoDestaque{cursor:pointer;}
+#destaque .fotoDestaque img{
+    width:100%; height:100%;
+}
+#destaque .descricaoDestaque{position:absolute;
+    left:10px; bottom:10px; z-index:2;
+    width:580px; height:80px;
+    background-color:#000;
+    color:#fff;
+    text-align:left;
+    padding:15px 15px 15px 15px ;
+}
+.noticiaDestaque {
+    margin:0px 0px 0px 10px;
+    height:97px;
+    background: #cdcdcd url (exe5jpg)no repeat;
+    background-size: 100% 100%;
+    float:left;
+    width:32%;
+    cursor:pointer;
+}
+.noticiaDestaque img { width: 120px;
+    float:left;
+    margin:8px 6px 5px 9px;
+}
+.noticiasDestaque h1 { font-size: 10px; }
+.noticiasDestaque p { font-size: 8px;
+    margin: 10px 8px 6px 4px;
+}
+#destaque .descricaoDestaque h1 { font-size: 20px ; }
+#destaque .descricaoDestaque p { font-size: 16px; }
+.conteudo #org {
+    letter-spacing: -1px;
+    text-align: justify;
+    font-size: 13px;
+}

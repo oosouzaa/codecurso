@@ -1,0 +1,19 @@
+<html>
+<body>
+	<h2 id=tit>javascript primeiro</h2>
+	<p>click sobre o tempo!</p>
+	
+	<button id="myBtn">tente aq</button>
+	<button onclick="displayDate()">The time is?</button>	
+	
+	<script>
+	document.getElementById("myBtn").onclick = displayDate;
+	function displayDate() {
+		document.getElementById("demo").innerHTML = Date();
+	}
+	</script>
+	
+	<p id="demo"></p>
+	<p id="myBtn"></p>	
+</body>
+</html>

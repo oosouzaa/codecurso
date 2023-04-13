@@ -1,0 +1,32 @@
+		body {
+			background-color: orange;
+		}
+		legend {
+			color: white;
+		}
+		select {
+			color: blue;
+		}
+		label {
+			color: white;
+		}
+		button {
+			color: green;
+		}
+		form {
+			color:white
+		}
+		textarea {
+			color: aqua;
+		}
+		body {
+			opacity: 0.3;
+
+		}
+		h1 {
+			color: red;
+		}
+		body {
+			background:url("maxresdefault.jpg");
+			opacity: 0.1;
+		}	
